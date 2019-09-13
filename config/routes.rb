@@ -4,4 +4,6 @@ Rails.application.routes.draw do
       resources :articles
     end
   end
+
+  root 'api/v1/articles#index'
 end
